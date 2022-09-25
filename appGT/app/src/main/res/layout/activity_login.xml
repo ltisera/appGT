@@ -10,7 +10,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Ingrese nombe de usuario:"
+        android:text="Ingrese nombre de usuario"
         android:layout_gravity="center_horizontal"/>
     <EditText
         android:id="@+id/etUsuario"
@@ -21,16 +21,17 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Ingrese nombe de usuario:"
+        android:text="Ingrese contraseña"
         android:layout_gravity="center_horizontal"/>
     <EditText
         android:id="@+id/etPassword"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:inputType="textPassword"
-        android:hint="Mi nombre de usuario"
+        android:hint="Mi contraseña"
         />
     <CheckBox
+        android:id="@+id/cbRecordadUsuario"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Recordar Usuario"
