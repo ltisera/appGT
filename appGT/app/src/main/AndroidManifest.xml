@@ -14,7 +14,7 @@
         android:theme="@style/Theme.AppGT"
         tools:targetApi="31">
         <activity
-            android:name=".HomeActivity"
+            android:name=".DaenerysActivity"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
