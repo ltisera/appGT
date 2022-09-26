@@ -3,6 +3,7 @@ package com.example.appgt;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
@@ -41,15 +42,17 @@ public class LoginActivity extends AppCompatActivity {
                 if(usuario.isEmpty() || password.isEmpty()){
                     Toast.makeText(LoginActivity.this, "Completar Datos", Toast.LENGTH_SHORT).show();
                 } else{
-                    //Intent: Darle curso a uan intencion. Va a ir de un lado a otro
+                  //Intent: Darle curso a uan intencion. Va a ir de un lado a otro
                     Intent main_activity = new Intent(LoginActivity.this, MainActivity.class);
                     main_activity.putExtra("usuario", usuario);
                     startActivity(main_activity);
                     //Se elimina la activity que esta llamando a ese metodo
                     finish();
+
                 }
 
             }
         });
     }
+
 }
