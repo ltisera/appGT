@@ -13,6 +13,7 @@ import android.widget.Toast;
 public class MainActivity extends AppCompatActivity {
     Button btnDaenerys;
     Button btnJon;
+    Button btnArya;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -21,6 +22,7 @@ public class MainActivity extends AppCompatActivity {
 
         btnDaenerys = findViewById(R.id.btnDaenerys);
         btnJon = findViewById(R.id.btnJon);
+        btnArya = findViewById(R.id.btnArya);
 
         btnDaenerys.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -34,6 +36,14 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent activity_main = new Intent(MainActivity.this, JonActivity.class);
+                startActivity(activity_main);
+            }
+        });
+
+        btnArya.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent activity_main = new Intent(MainActivity.this, AryaActivity.class);
                 startActivity(activity_main);
             }
         });
