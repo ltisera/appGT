@@ -12,6 +12,7 @@ import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
     Button btnDaenerys;
+    Button btnJon;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -19,11 +20,20 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         btnDaenerys = findViewById(R.id.btnDaenerys);
+        btnJon = findViewById(R.id.btnJon);
 
         btnDaenerys.setOnClickListener(new View.OnClickListener() {
             @Override
            public void onClick(View view) {
                 Intent activity_main = new Intent(MainActivity.this, DaenerysActivity.class);
+                startActivity(activity_main);
+            }
+        });
+
+        btnJon.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent activity_main = new Intent(MainActivity.this, JonActivity.class);
                 startActivity(activity_main);
             }
         });

@@ -5,12 +5,12 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".MainActivity">
+    tools:context=".JonActivity">
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Personajes"
+        android:text="Jon"
         android:gravity="center"
         android:textSize="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -18,18 +18,10 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <Button
-        android:id="@+id/btnDaenerys"
-        android:layout_width="match_parent"
+    <TextView
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Daenerys"
-        />
-
-    <Button
-        android:id="@+id/btnJon"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Jon"
-        />
+        android:text="Lord Jon Nieve es el Lord Comandante de la Guardia de la Noche nº 998. Es hijo bastardo de Lord Eddard Stark. Su lobo huargo, Fantasma, es albino y mudo. El emblema personal de Jon consiste en los colores de la Casa Stark invertidos, un lobo huargo de plata corriendo sobre fondo de cenizo."
+        android:layout_gravity="center_horizontal"/>
 
 </LinearLayout>
