@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".TerminosYCondicionesActivity">
+
+    <include
+        android:id="@+id/mi_toolbar"
+        layout="@layout/toolbar_principal"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Terminos Y Condiciones"
+        android:textSize="20dp"
+        android:gravity="center"
+
+
+    />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:weightSum = "1">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum neque elit, lobortis convallis arcu vitae, lacinia cursus sem. In fermentum, felis vel condimentum rutrum, nibh risus tincidunt lectus, a imperdiet augue augue non libero. Maecenas mattis gravida sem, vitae volutpat lectus blandit eget. Nunc rutrum tellus velit. Maecenas pretium sapien dolor, vel consequat lectus maximus egestas. Fusce vulputate suscipit neque eget rhoncus. Suspendisse eu urna sapien. Curabitur at sem bibendum, consequat metus imperdiet, auctor quam. Integer lectus diam, tempus sit amet luctus sed, pellentesque quis ligula. In imperdiet lorem non dictum sodales. Suspendisse elit neque, pulvinar vitae tristique a, lobortis eget urna. Sed luctus luctus sapien id pharetra. Donec nunc ante, mattis sit amet vestibulum quis, rutrum eu mi.
+
+Etiam eros velit, elementum at enim id, vulputate faucibus mauris. Etiam condimentum eros tellus, at vestibulum neque porttitor vel. Praesent scelerisque vestibulum turpis, vitae sollicitudin odio imperdiet a. Sed non justo non ante cursus vulputate in vitae felis. Duis suscipit in ipsum sed aliquet. Maecenas elit lacus, vehicula non sem ac, posuere varius lacus. In egestas suscipit consectetur. Aenean quis sagittis odio. Etiam ullamcorper magna ut urna viverra eleifend. Ut consequat non ligula sit amet ultrices. Nullam elementum tortor vel elit viverra tincidunt. Pellentesque feugiat ligula ac felis volutpat finibus. Fusce a dolor euismod, iaculis augue quis, vestibulum tortor.
+
+Praesent vel odio molestie erat dictum elementum ut nec nibh. Aenean ultricies velit quis eleifend posuere. Etiam ac magna vel lacus ultrices gravida sit amet id odio. Sed quis iaculis dui, eu vestibulum felis. In sed erat sapien. Duis nec porttitor lectus, id eleifend turpis. Praesent at nulla tortor. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras lacus eros, iaculis a eleifend vitae, scelerisque vitae leo. Praesent pellentesque turpis et dictum bibendum. In vitae molestie lorem. Nunc in urna diam. Phasellus tincidunt luctus nisl. In hac habitasse platea dictumst.
+
+Interdum et malesuada fames ac ante ipsum primis in faucibus. Vestibulum ultricies ipsum sit amet luctus maximus. Mauris consequat purus sed porta aliquam. Vestibulum rhoncus interdum lorem, vel tempus est malesuada vitae. Interdum et malesuada fames ac ante ipsum primis in faucibus. Ut sagittis ullamcorper justo nec porttitor. Aliquam erat volutpat. Ut ex nisi, consequat ac pretium eu, venenatis non tortor. Phasellus mattis, urna nec malesuada mattis, erat nibh ornare risus, eget luctus leo tortor efficitur urna. Nunc lacinia varius condimentum. Vivamus ut ullamcorper metus. In sollicitudin consequat nisl sed molestie. Nullam rhoncus massa a purus aliquet, nec ullamcorper lectus consequat. Integer semper non augue sit amet porta. Nullam faucibus risus vel enim imperdiet tempor. Cras eros sapien, gravida vitae vestibulum et, vehicula ac ligula.
+
+Sed ut tristique felis. Nullam sed lorem a mi pharetra egestas et et odio. Phasellus diam risus, eleifend eu odio et, ultrices suscipit tortor. Donec rutrum, felis ut volutpat pretium, est enim finibus quam, elementum ullamcorper urna elit nec sem. Vivamus dictum nunc vel pulvinar porttitor. Mauris porttitor scelerisque mattis. Quisque eget blandit eros, sed elementum leo. Phasellus convallis vestibulum urna ac feugiat. Nam hendrerit facilisis felis at aliquam. Integer a rhoncus sem, id accumsan dui. Interdum et malesuada fames ac ante ipsum primis in faucibus. Phasellus at lectus sed nulla ullamcorper pretium eu vitae odio. Aenean tincidunt metus at eros lobortis placerat. Ut aliquam et tellus vel rutrum. Praesent ut massa condimentum, iaculis enim eu, finibus augue."
+            android:textSize="16dp"
+            />
+    </ScrollView>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnAceptarTerminos"
+        android:text="Aceptar"
+        />
+
+</LinearLayout>

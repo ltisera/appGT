@@ -7,6 +7,12 @@
     android:orientation="vertical"
     tools:context=".LoginActivity">
 
+    <include
+        android:id="@+id/mi_toolbar"
+        layout="@layout/toolbar_principal"
+        />
+
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -31,6 +37,7 @@
         android:hint="Mi nombre de usuario"
         />
     <CheckBox
+        android:id="@+id/cbRecordarUsuario"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Recordar Usuario"

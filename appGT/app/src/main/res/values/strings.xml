@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">appGT</string>
+    <string name="texto_item_agregar">Agregar</string>
 </resources>
