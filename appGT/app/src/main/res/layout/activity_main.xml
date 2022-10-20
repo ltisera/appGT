@@ -7,10 +7,14 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
+    <include
+        android:id="@+id/mi_toolbar"
+        layout="@layout/toolbar_principal"
+        />
+
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Personajes"
         android:gravity="center"
         android:textSize="20dp"
         app:layout_constraintBottom_toBottomOf="parent"

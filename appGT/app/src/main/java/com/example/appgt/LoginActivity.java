@@ -1,6 +1,7 @@
 package com.example.appgt;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
 
 import android.content.Intent;
 import android.content.SharedPreferences;
@@ -17,11 +18,17 @@ public class LoginActivity extends AppCompatActivity {
     EditText etUsuario, etPassword;
     Button btnIniciarSesion, btnRegistrarUsuario;
     CheckBox cbRecordarUsuario;
+    private Toolbar mi_toolbar;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
+
+        mi_toolbar = findViewById(R.id.mi_toolbar);
+
+        setSupportActionBar(mi_toolbar);
+        getSupportActionBar().setTitle("Games Of Thrones");
 
         etUsuario = findViewById(R.id.etUsuario);
         etPassword = findViewById(R.id.etPassword);
