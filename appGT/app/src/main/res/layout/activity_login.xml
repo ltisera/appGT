@@ -7,11 +7,22 @@
     android:orientation="vertical"
     tools:context=".LoginActivity">
 
+    <include
+        android:id="@+id/mi_toolbar"
+        layout="@layout/toolbar_principal"
+        />
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="247dp"
+        android:src="@drawable/ic_baseline_account_circle_24" />
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Ingrese nombre de usuario"
-        android:layout_gravity="center_horizontal"/>
+        android:layout_gravity="center_horizontal"
+        android:text="Ingrese nombre de usuario" />
     <EditText
         android:id="@+id/etUsuario"
         android:layout_width="match_parent"
@@ -48,16 +59,15 @@
             android:id="@+id/btnIniciarSesion"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Iniciar Sesion"
             android:layout_weight="0.5"
-            />
+            android:text="Iniciar Sesion" />
 
         <Button
             android:id="@+id/btnRegistrarUsuario"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Registrar Usuario"
-            android:layout_weight="0.5"/>
+            android:layout_weight="0.5"
+            android:text="Registrar Usuario" />
 
     </LinearLayout>
 
